@@ -29,7 +29,8 @@ public class RoomTest extends BaseClass {
                 "7500",
                 "2000",
                 "12x10 ft"
-        );
+
+        		);
 
         System.out.println("Room Created Successfully");
 

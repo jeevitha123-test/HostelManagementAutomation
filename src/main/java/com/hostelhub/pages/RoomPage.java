@@ -28,10 +28,10 @@ public class RoomPage {
 
 		loginButton.click();
 	}
-
+     //identified email
 	@FindBy(xpath = "//input[@placeholder='you@example.com or 9000000000']")
 	WebElement emailField;
-
+    //identified pwd
 	@FindBy(name = "password")
 	WebElement passwordField;
 
